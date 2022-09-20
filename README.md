@@ -1,6 +1,6 @@
 # 원티드 클론코딩
 ## 기술 스택
-* javascript
+* javascript(ES6)
 * react
 * jsx
 * css - 추후 sass 및 신기술로 적용
