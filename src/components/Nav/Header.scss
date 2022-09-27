@@ -1,0 +1,70 @@
+.header {
+  border-bottom: 1px solid rgb(231, 224, 224);
+}
+
+.headerWrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.left {
+  cursor: pointer;
+}
+.hambugerbar {
+  width: 19px;
+  margin: 0 18px;
+}
+
+.wanted {
+  width: 89px;
+  margin: -5px 10px;
+}
+.middle {
+  display: flex;
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  display: flex;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.right {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.searchicon {
+  width: 19px;
+  margin: 0 10px;
+}
+
+.userLogin {
+  font-size: 14px;
+  font-weight: bold;
+
+  &:after {
+    content: "";
+    border: 0.2px solid rgb(187, 182, 182);
+    cursor: pointer;
+    margin: 0 27px;
+  }
+}
+
+.rightEnd {
+  color: rgb(111, 108, 108);
+  font-size: 12px;
+  border: 1px solid rgb(219, 214, 214);
+  border-radius: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+  padding: 6px 10px;
+}
