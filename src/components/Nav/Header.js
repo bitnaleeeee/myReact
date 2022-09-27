@@ -3,13 +3,13 @@ import './Header.scss';
 
 const Header = () => {
 
-  return(
+  return (
     <div className="header">
       <div className='headerWrap'>
-      <div className='left'>
-        <img className="hambugerbar" src='./images/icon_hamburger.png' alt='햄버거이미지' />
-        <img className="wanted" src='./images/icon_wanted.png' alt='원티드이미지' />
-      </div>
+        <div className='left'>
+          <img className="hambugerbar" src='./images/icon_hamburger.png' alt='햄버거이미지' />
+          <img className="wanted" src='./images/icon_wanted.png' alt='원티드이미지' />
+        </div>
         <div className='middle'>
           <ul>
             <li>채용</li>
@@ -21,19 +21,17 @@ const Header = () => {
             <li>AI 합격예측</li>
           </ul>
         </div>
-          <div className='right'>
-            <img className="searchicon" src='./images/icon_search.png' alt='돋보기이미지' />
-            <div className='userLogin'>
+        <div className='right'>
+          <img className="searchicon" src='./images/icon_search.png' alt='돋보기이미지' />
+          <div className='userLogin'>
             회원가입/로그인
-            </div>
-            <div className='rightEnd'>
-              기업 서비스
-            </div>
-            </div>
-            </div>
-            </div>
-
-      
+          </div>
+          <div className='rightEnd'>
+            기업 서비스
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 
