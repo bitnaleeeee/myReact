@@ -4,7 +4,7 @@
 
 .headerWrap {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -28,12 +28,17 @@
 ul {
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
 }
 
 li {
   display: flex;
-  margin: 0 10px;
+  margin: 10px 10px;
   font-size: 14px;
+  box-sizing: border-box;
+  &:hover {
+    border-bottom: 3px solid grey;
+  }
 }
 
 .right {
