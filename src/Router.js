@@ -1,11 +1,14 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import Nav from './components/Nav/Header';
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import MainPage from './Main/MainPage';
 const Router = () => {
   return(
     <BrowserRouter>
-      <Nav />
+      <Header />
+      <Routes>
+        <Route path='/' element={<MainPage />} />
+      </Routes>
     </BrowserRouter>
   );
 };
